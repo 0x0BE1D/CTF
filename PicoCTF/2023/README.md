@@ -1,7 +1,0 @@
-## Safeopener.class
-
-visit decompiler.com and upload the class file. 
-
-![[Pasted image 20230318090156.png]]
-
-Key is visible in the code
