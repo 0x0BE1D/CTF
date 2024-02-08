@@ -654,6 +654,7 @@ for (local_50 = 0x10; local_50 < 0x1a; local_50 = local_50 + 1)
 #forensics 
 
 xxd mystery.png
+
 <img width="353" alt="Pasted image 20230817154629" src="https://github.com/0x0BE1D/CTFs/assets/1557309/a9867ef3-e013-4d49-9141-c449f49cb06a">
 
 xxd mystery2.png
