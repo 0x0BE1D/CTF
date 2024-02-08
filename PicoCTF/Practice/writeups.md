@@ -104,7 +104,7 @@ nc mercury.picoctf.net 21135 | awk '{ printf("%c",$0); }'
 #ReverseEngineering
 Download enc file.
 binwalk, file and strings yields nothing of interest.
->[!python code]
+```python
 flag='picoCTF{b1scu1ts_4nd_gr4vy_f0668f62}'
 print (flag)
 print (len(flag))
@@ -142,6 +142,8 @@ for i in range(len(enc)):
     diff=ord(d)<<8
     dec=dec+(chr(o-diff))
 print (dec)
+
+```
 
 
 ## Stonks
