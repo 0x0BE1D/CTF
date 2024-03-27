@@ -12,7 +12,7 @@ Welcome ctf-player, here's your flag: picoCTF{s3cur3_c0nn3ct10n_65a7a106}
 Connection to titan.picoctf.net closed.
 
 ### Bookmarklet
-![[Pasted image 20240313150004.png]]
+![Alt text](/Images/20240313150004.png?raw=true "Optional Title")
 
 ### interencdec
 Decode the text twice using base64 decode. You end up with:
