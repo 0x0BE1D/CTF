@@ -12,6 +12,7 @@ Welcome ctf-player, here's your flag: picoCTF{s3cur3_c0nn3ct10n_65a7a106}
 Connection to titan.picoctf.net closed.
 
 ### Bookmarklet
+![Alt text](https://github.com/0x0BE1D/CTFs/blob/main/PicoCTF/2024/Images/Pasted%20image%2020240326102028.png?raw=true "Optional Title")
 https://github.com/0x0BE1D/CTFs/blob/main/PicoCTF/2024/Images/Pasted%20image%2020240326102028.png
 
 ### interencdec
