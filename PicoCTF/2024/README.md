@@ -1,4 +1,3 @@
-
 ### ssh
 ──(kali㉿kali)-[~]
 └─$ ssh ctf-player@titan.picoctf.net -p 49226 
@@ -12,8 +11,7 @@ Welcome ctf-player, here's your flag: picoCTF{s3cur3_c0nn3ct10n_65a7a106}
 Connection to titan.picoctf.net closed.
 
 ### Bookmarklet
-![Alt text](https://github.com/0x0BE1D/CTFs/blob/main/PicoCTF/2024/Images/Pasted%20image%2020240326102028.png?raw=true "Optional Title")
-https://github.com/0x0BE1D/CTFs/blob/main/PicoCTF/2024/Images/Pasted%20image%2020240326102028.png
+<img width="959" alt="Pasted image 20240313150004" src="https://github.com/0x0BE1D/CTFs/assets/1557309/7f79a335-9299-42ea-9c48-54eef33eb417">
 
 ### interencdec
 Decode the text twice using base64 decode. You end up with:
@@ -22,16 +20,15 @@ wpjvJAM{jhlzhy_k3jy9wa3k_890k2379}
 Decode this to get the flag.
 
 ### Scan surprise
-
-![[WhatsApp Image 2024-03-13 at 15.09.21_c7ac680b.jpg]]
+![WhatsApp Image 2024-03-13 at 15 09 21_c7ac680b](https://github.com/0x0BE1D/CTFs/assets/1557309/c53e0b20-6d9e-4087-b9c1-7ff8a80e82fa)
 
 ### Commitment issues
 Use git log / git checkout to get to the flag.
-![[Pasted image 20240313162414.png]]
+<img width="510" alt="Pasted image 20240313162414" src="https://github.com/0x0BE1D/CTFs/assets/1557309/95bd865d-8449-42b4-914c-fd278a099dd7">
 
 ### Format String 0
+<img width="659" alt="Pasted image 20240314130246" src="https://github.com/0x0BE1D/CTFs/assets/1557309/bdd899f6-ca40-4f41-90ff-3034c257591e">
 
-![[Pasted image 20240314130246.png]]
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -578,8 +575,7 @@ Image Size                      : 4308x2875
 Megapixels                      : 12.4
 ```
 Attribution url is the flag in base64. Covert that to get the flag.
-
-![[Pasted image 20240316171051.png]]
+<img width="536" alt="Pasted image 20240316171051" src="https://github.com/0x0BE1D/CTFs/assets/1557309/52c012b5-f256-4cf4-a677-54f5938b61b7">
 
 ### Mob psycho
 
@@ -1162,115 +1158,22 @@ Aborted (core dumped)
 Browse to the website.
 View source.
 Flag is right in front.
-
-![[Pasted image 20240319165910.png]]
-
-### Binhexa
-
-Use this website to do the binary calculations:
-https://www.calculator.net/binary-calculator.html
-
-Finally convert the last number to hex for the flag.
-```
-Welcome to the Binary Challenge!"
-Your task is to perform the unique operations in the given order and find the final result in hexadecimal that yields the flag.
-
-Binary Number 1: 01001000
-Binary Number 2: 10001001
-
-
-Question 1/6:
-Operation 1: '>>'
-Perform a right shift of Binary Number 2 by 1 bits .
-Enter the binary result: 01000100
-Correct!
-
-Question 2/6:
-Operation 2: '<<'
-Perform a left shift of Binary Number 1 by 1 bits.
-Enter the binary result: 10010000
-Correct!
-
-Question 3/6:
-Operation 3: '*'
-Perform the operation on Binary Number 1&2.
-Enter the binary result: 010011010001000
-Correct!
-
-Question 4/6:
-Operation 4: '+'
-Perform the operation on Binary Number 1&2.
-Enter the binary result: 011010001
-Correct!
-
-Question 5/6:
-Operation 5: '&'
-Perform the operation on Binary Number 1&2.
-Enter the binary result: 00001000
-Correct!
-
-Question 6/6:
-Operation 6: '|'
-Perform the operation on Binary Number 1&2.
-Enter the binary result: 11001001
-Correct!
-
-Enter the results of the last operation in hexadecimal: C9
-
-Correct answer!
-The flag is: picoCTF{b1tw^3se_0p3eR@tI0n_su33essFuL_1367e2c6}
-```
-
-
-
-### Format String 1
-%lx leaks information in the memory.
-```
-Give me your order and I'll read it back to you:
-%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx%lx
-Here's your order: 40211807f961d359a000940880a3478347fffb9befaa07f961d14ae607f961d36f4d017fffb9befb70007b4654436f636970355f31346d316e343478345f3331793734365f673431665f7d36313137373277f961d3718d82300000007206e693374307250a336c79745397f961d382de97f961d1530987f961d36f4d007fffb9befb806c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578786c25786c25786c6c25786c25786c2525786c25786c2578093e68017f961d16cd9004011f61000000007fffb9befff807c753e3fe803d05a7fffb9befff84011f6403e187f961d3ab040838a4d4215e1d05a835904127289d05a7f96000000000000301fda33ecc8b50007f961d16ce407fffb9bf0008403e187f961d3ac2e0004011107fffb9befff0004011357fffb9beffe81c17fffb9bf1ea707fffb9bf1ec27fffb9bf1ed57fffb9bf1edd7fffb9bf1ef97fffb9bf1f047fffb9bf1f197fffb9bf1f377fffb9bf1f4d7fffb9bf1f617fffb9bf1f727fffb9bf1fb47fffb9bf1fc37fffb9bf1fd00217fffb9bf700033e30101f8bfbff61000116434000404385d77f961d371000809401110b0c0d0e0170197fffb9bf01e91a21f7fffb9bf1fddf7fffb9bf01f91b1c1c20001fda33ecc8b549002d3e3a9f1ff4003034365f363878e80000000000000000000000000000000000000000000000000000000000000000000000000000000000
-Bye!
-```
-Converting the output from hex to ascii leaks the flag.
-
-![[Pasted image 20240320130711.png]]{FTC
-ocip5_1
-1_5pico
-4m1n44x
-picoCTF{4n1m41_57y13_4x4_f14g_64277116}
-picoCTF{4n1m41_57y13_4x4_f14g_64w277116}
-{FTCocip
-
-5_14m1n4
-
-
-picoCTF{4n1m41_57y13_4x4_f14g_64w277116}
-
-4x4_31y7
-
-46_g41f_
-}611772w
-4_31y74
-
-6_g41f_
-`x44n1m447y13_4_f14g_6277116}
-}611772
-277116}
-{FTCocip
-picoCTF{4n1m41_57y13_4x4_f14g_46277116}
-}611772
-
+<img width="956" alt="Pasted image 20240319165910" src="https://github.com/0x0BE1D/CTFs/assets/1557309/6190aeec-1c83-48b7-8f33-3f3483b9d7a2">
 
 ### Secret of the polyglot
 
 Part 1 of the flag:
 
-![[Pasted image 20240326102028.png]]
+<img width="502" alt="Pasted image 20240326102028" src="https://github.com/0x0BE1D/CTFs/assets/1557309/4912a00c-6d50-41d8-aa6f-465bac97a419">
+
 picoCTF{f1u3n7_
 
 Part 2 of the flag:
 
-![[Pasted image 20240326102318.png]]
+<img width="581" alt="Pasted image 20240326102318" src="https://github.com/0x0BE1D/CTFs/assets/1557309/34a227a0-181e-402e-88c9-5012b97e0bf1">
 
-![[Pasted image 20240326102348.png]]
+<img width="525" alt="Pasted image 20240326102348" src="https://github.com/0x0BE1D/CTFs/assets/1557309/15bd9462-2911-4a37-bc8d-2c625b0b54b4">
+
 1n_png_&_pdf_2a6a1ea8}
+
+
